@@ -26,4 +26,5 @@ void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void _quick_sort(int *a, int low, int high, int size);
+int get_pivot(int *array, int low, int high, size_t size);
 #endif
